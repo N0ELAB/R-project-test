@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Header and Navigation Styling */
+.skin-red .main-header .logo {
+    background-color: #ff3a52;
+    font-family: 'Oswald', sans-serif;
+    color: #ff3a52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0 px;
+    margin: -20;
+    padding: 0;
+}
+
+.skin-red .main-header .logo span {
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.skin-red .main-header .logo:hover {
+    background-color: #ff3a52;
+}
+
+.skin-red .main-header .navbar {
+    background-color: #ff3a52;
+    color: #ffffff;
+}
+
+.skin-red .main-header .navbar .sidebar-toggle {
+    background-color: #ffb5be;
+    color: #ff3a52;
+}
+
+.skin-red .main-header .navbar .sidebar-toggle:hover {
+    background-color:#fba9b2
+}
+
+.main-header .sidebar-toggle:active, .main-header .sidebar-toggle:focus {
+    background: 0 0;
+    background-color: #ff3a52;
+    color: white;
+}
+
+.skin-red.sidebar-collapse .main-header .navbar .sidebar-toggle {
+    background-color: #ff3a52;
+    color: white;
+  }
+
+.skin-red.sidebar-collapse .main-header .navbar .sidebar-toggle:hover {
+    background-color: #fba9b2;
+    color: white;
+  }
+
+/* Sidebar Styling */
+.skin-red .main-sidebar {
+    background-color: #ffd8d6;
+}
+
+.skin-red .sidebar-menu > li.active > a {
+    background-color: #ff3a52;
+    border-left-color: #ff3a52;
+}
+
+.skin-red .sidebar-menu > li > a {
+    color: #ff3a52;
+}
+
+.skin-red .sidebar-menu > li > a:hover {
+    background-color: #fde8e7;
+    color: #ff3a52;
+    border-left-color: #ff3a52;
+}
+
+.skin-red .sidebar-menu > li.active > a:hover {
+    background-color: #ffb5be;
+    color: #ff3a52;
+    border-left-color: #ff3a52;
+}
+
+.skin-red .content-wrapper, .skin-blue .right-side {
+    background-color: #ffffff;
+}
+
+.skin-red .sidebar-menu .control-label {
+    color: #ff3a52
+}
+
+/* Slider Styling */
+.js-irs-0 .irs-bar {
+    border-top: 1px solid #ff3a52;
+    border-bottom: 1px solid #ff3a52;
+    background: #ff3a52;
+}
+
+.form-group > label {
+    color: #ff3a52 !important;
+  }
+
+.js-irs-0 .irs-bar-edge {
+    border: 1px solid #ff3a52;
+    background: #ff3a52;
+}
+
+.js-irs-0 .irs-handle {
+    border: 3px solid #ff3a52;
+    background: white;
+}
+
+.js-irs-0 .irs-handle:hover {
+    background: #ffb5be;
+}
+
+.js-irs-0 .irs-single,
+.js-irs-0 .irs-from,
+.js-irs-0 .irs-to {
+    background: #ff3a52;
+}
+
+.js-irs-0 .irs-single:before,
+.js-irs-0 .irs-from:before,
+.js-irs-0 .irs-to:before {
+    border-top-color: #ff3a52;
+}
+
+.js-irs-0 .irs-line {
+    background: #ffb5be;
+    border: 1px solid #ff3a52;
+}
+
+.js-irs-0 .irs-grid-pol {
+    background: #ffb5be;
+}
+
+.js-irs-0 .irs-grid-pol.small {
+    background: #ffd8d6;
+    height: 4px;
+}
+
+.js-irs-0 .irs-grid-text {
+    color: #ff3a52;
+    font-size: 10px;
+}
+
+.js-irs-0 .irs-min,
+.js-irs-0 .irs-max {
+    color: #ff3a52;
+    background: #ffd8d6;
+}
+
+/* Select Box Styling */
+.selectize-input.focus {
+    border-color: #ff3a52 !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 58, 82, 0.25) !important;
+}
+
+.selectize-dropdown.single {
+    border-color: #ffb5be;
+}
+
+.selectize-dropdown-content .active {
+    background: #ff3a52 !important;
+    color: white !important;
+}
+
+select:focus {
+    outline: none !important;
+    border-color: #ff3a52 !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 58, 82, 0.25) !important;
+}
+
+.selectize-control.single .selectize-input.dropdown-active {
+    border-color: #ff3a52 !important;
+}
+
+.selectize-dropdown .option:hover {
+    background-color: #ffd8d6 !important;
+}
+
+/* Make dropdown items more readable */
+.selectize-dropdown-content {
+    color: #333;
+}
+
+/* Style for the input box itself */
+.selectize-input {
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background: #fff;
+}
+
+/* Hover state for the input box */
+.selectize-input:hover {
+    border-color: #ffb5be;
+}
+
+.skin-red .main-header .navbar .sidebar-toggle:hover {
+    background-color:#ffb5be
+}
+
+.main-header .sidebar-toggle:active, .main-header .sidebar-toggle:focus {
+    background: 0 0;
+    background-color: #ff3a52;
+    color: white;
+}
+
+
+/* Active/selected item in the dropdown */
+.selectize-dropdown .active {
+    background-color: #ff3a52;
+    color: white;
+}
+
+/* Selected item in the input box */
+.selectize-input > div {
+    background: #ffd8d6;
+    color: #ff3a52;
+    border-radius: 3px;
+}
+
+.selectize-dropdown .option.active {
+  background-color: #ffd8d6 !important;
+  color: #fff !important;
+}
+
+.selectize-dropdown .option.selected {
+  background-color: #ff3a52 !important;
+  color: #fff !important;
+}
+
+
+
+.navbar-nav > .messages-menu > .dropdown-menu, 
+.navbar-nav > .notifications-menu > .dropdown-menu, 
+.navbar-nav > .tasks-menu > .dropdown-menu {
+ width: 400px;
+padding: 0;
+top: 100%;
+background-color: white;
+border:1px;
+border-top: 3px;
+}
+
+.navbar-nav > .messages-menu > .dropdown-menu > li.header,
+.navbar-nav > .notifications-menu > .dropdown-menu > li.header,
+.navbar-nav > .tasks-menu > .dropdown-menu > li.header {
+border-top-left-radius: 0px; /* Sets the top-left border radius to 0 pixels */
+border-top-right-radius: 0px; /* Sets the top-right border radius to 0 pixels */
+border-bottom-right-radius: 0; /* Sets the bottom-right border radius to 0 pixels */
+border-bottom-left-radius: 0; /* Sets the bottom-left border radius to 0 pixels */
+background-color: #ff3a52; /* Sets the background color of the header */
+padding: 7px 10px; /* Adds 7 pixels of vertical and 10 pixels of horizontal padding to the header */
+border-bottom: 1px solid #ff3a52; /* Adds a 1 pixel solid bottom border with the specified color */
+color: #ffffff; /* Sets the text color of the header to white */
+font-size: 14px; /* Sets the font size of the header text to 14 pixels */
+font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu, /* Targets the menu items inside the "messages-menu" dropdown */
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu, /* Targets the menu items inside the "notifications-menu" dropdown */
+.navbar-nav > .tasks-menu > .dropdown-menu > li .menu { /* Targets the menu items inside the "tasks-menu" dropdown */
+max-height: 1200px; /* Sets the maximum height of the menu to 1200 pixels */
+margin: 0; /* Removes any margin around the menu items */
+padding: 0; /* Removes any padding around the menu items */
+list-style: none; /* Removes the default list-style */
+overflow-x: hidden; /* Hides any horizontal overflow */
+}
+
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a { /* Targets the links inside the "notifications-menu" dropdown */
+color: #000000; /* Sets the text color of the links to black */
+overflow: hidden; /* Hides any overflow of the link content */
+white-space: normal; /* Allows the link text to wrap to the next line */
+}
+
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > i {
+    color: #ff3a52; /* Set the desired color, in this case a red shade */
+    padding-right: 3px;
+  }
+
+.navbar-nav > .notifications-menu > .dropdown-toggle:focus,
+.navbar-nav > .notifications-menu > .dropdown-toggle:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }

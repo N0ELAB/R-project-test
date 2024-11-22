@@ -1,0 +1,6 @@
+step;text
+1;This Shiny App uses World University Rankings data from the Center for World University Rankings.
+2;"""Regional Evolution""" is not affected by any filter.
+3;"""Region""" and """Year""" filters are applied to any other graphs. 
+4;"""Compare Metric""" and """Top N Universities""" are only applied to the Top Universities Performance Analysis
+5;Noé LABOURET, Mathis FRANÇOIS, Gustave DRION
